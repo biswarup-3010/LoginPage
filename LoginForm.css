@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(116, 123, 121);
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.main {
+  background-color: rgb(172, 196, 188);
+  border: 1px solid rgb(71, 79, 76);
+  box-shadow: inset 10px 10px 10px -10px rgb(205, 255, 227),
+    inset -10px 10px 10px -10px rgb(205, 255, 227);
+  width: fit-content;
+  padding: 25px;
+  height: fit-content;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  margin-top: 45px;
+  border-radius: 10px;
+}
+.c01 {
+  padding: 5px;
+  font-size: 1.5em;
+  color: rgb(43, 9, 30);
+}
+input {
+  color: blue;
+  font-size: 0.8em;
+  height: 1.4em;
+  width: 15em;
+  border: 1px solid rgb(19, 118, 90);
+  border-radius: 5px;
+  outline: none;
+}
+.c02 {
+  padding: 5px;
+  font-size: 1.5em;
+  color: rgb(255, 0, 0);
+  text-align: right;
+}
+#ui {
+  background-color: rgb(200, 240, 160);
+  border: 1px solid rgb(0, 177, 44);
+  border-radius: 5px;
+}
+#UI {
+  background-color: rgb(255, 121, 121);
+  border: 1px solid rgb(255, 86, 86);
+  border-radius: 5px;
+}
+button:hover {
+  font-size: large;
+  color: rgb(16, 0, 135);
+}
+.oo2 {
+  width: 25%;
+  height: 1.7em;
+  color: rgb(2, 14, 175);
+  font-size: 0.59em;
+}
+.xyz {
+  background-color: bisque;
+  text-align: right;
+}
+.pass_so {
+  margin: 0%;
+  width: 20px;
+}
+.pass {
+  color: black;
+  font-size: 0.5em;
+}

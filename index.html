@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./LoginForm.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form action="#" class="form">
+        <div class="c01">
+          <label for="">Username</label>&nbsp;
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="abcd@gmail.com"
+            required
+          />
+        </div>
+        <div class="c01">
+          <br />
+          <label for="">Password</label>&nbsp;
+          <input
+            type="password"
+            name="password"
+            id="myInput"
+            placeholder="Ab@#!*#&$jfiwl83"
+            required
+          />
+          <br />
+
+          <p class="pass">
+            <input type="checkbox" onclick="myFunction()" class="pass_so" />Show
+            Password
+          </p>
+        </div>
+        <div class="c02">
+          <button type="submit" class="oo2" id="ui">Login</button>
+          <button type="reset" class="oo2" id="UI" onclick="aware()">
+            clear
+          </button>
+        </div>
+      </form>
+    </div>
+    <script>
+      function aware() {
+        alert("Want to clear ?");
+      }
+      function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
